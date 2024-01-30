@@ -1,53 +1,49 @@
 def question10_1():
-    answer=True #a
-    # It doesn't add anything if we deal with the count
+    answer=True 
+    # Including a count doesn't provide additional information.
     return answer
 
 def question10_2():
-    answer=True #b
-    # The correlation value between 2 real values vary between -1(strong -ve correlation) and 1 (strong +ve correlation)
+    answer=True 
+    # The correlation value between two real values varies between -1 (strong negative correlation) and 1 (strong positive correlation).
     return answer
 
 def question10_3():
-    answer=False #c
-    # Sampling might lead to information loss which is important in the case of time series. 
+    answer=False 
+    # Sampling might result in information loss, especially critical in time series data. 
     return answer
 
 def question10_4():
-    answer=True #d
-    # Certainly all the outliers are not always noise, but in few cases
+    answer=True 
+    # Although not all outliers are noise, in some cases, they can be considered as such.
     return answer
 
 def question10_5():
-    answer=False #e
-    # In a high level, noise is very inappropriate data, whereas outliers are those points that 
-    # deviate from the original data trend (pattern)
+    answer=False 
+    # In a broad sense, noise refers to inappropriate data, while outliers deviate from the original data trend (pattern).
     return answer
 
 def question10_6():
-    answer=False  # f
-    # the binary atttributes are not asymmetric.
+    answer=False  
+
     return answer 
 
 def question10_7():
-    answer=True # g
-    # well if cosine measure is 1, that indicates the 2 vectors are parallel to each other, which means
-    # both are identical to each other.
+    answer=True 
+    # A cosine measure of 1 indicates that two vectors are parallel, signifying identical data patterns.
     return answer 
 
 def question10_8():
-    answer=False # h
-    # Its not always true, there are cases for example, if a person own 10(but not 10.5) cars, 
-    #it can be discrete and ratio (can own 0 cars)
+    answer=False 
+    # It's not always true. For example, owning 10 (but not 10.5) cars can be discrete and ratio (as one can own 0 cars).
     return answer  
 
 def question10_9():
-    answer=False  # i
-    # Yes quantitative variables talk about the quantity, but not necessarily the quantity needs to be continuous.
-    # cases like 10 kg, 100 meters often come under discrete, but not continuous.
+    answer=False  
+    # Quantitative variables refer to quantity, but not necessarily continuous quantity. Examples like 10 kg or 100 meters are often discrete.
     return answer   
 
 def question10_10():
-    answer=False # j
-    # not necessarily, because we will lose the order associated between the values. 
-    return answer  
+    answer=False 
+    # Not necessarily, as it would result in losing the order associated between values. 
+    return answer 
