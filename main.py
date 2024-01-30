@@ -18,7 +18,7 @@ def main():
     print(q3.question3_1())
     print(q3.question3_2())
     print(q3.question3_3())
-    print(q3.question3_4()) #----
+    print(q3.question3_4()) 
     print(q3.question3_5())
     print(q3.question3_6())
     print(q3.question3_7())
