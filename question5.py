@@ -17,7 +17,7 @@ def question5_2():
     return answer
 
 def question5_3():
-    # 9 - 28 , 28 - 47, 47 - 19 
+    
     answer = {
             'bin1': [1,2,3,4], 
             'bin2': [5,6,7],
